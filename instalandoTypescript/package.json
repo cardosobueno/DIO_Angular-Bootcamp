@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "npx tsc $$ node build/index.js"
+  },
+  "name": "instalandotypescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
