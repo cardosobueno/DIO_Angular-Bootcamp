@@ -1,0 +1,11 @@
+
+
+<app-comp-atributos>><h2>vimdefora</h2></app-comp-atributos>
+<app-card *ngIf="isAliveCard; else blocoSecreto"> </app-card>
+
+<ng-template #blocoSecreto>
+  <p>OLÁ, APARECI AQUI DO NADA MUAHAHASHAHSHAHAHSAASHSH</p>
+</ng-template>
+
+
+<router-outlet></router-outlet>

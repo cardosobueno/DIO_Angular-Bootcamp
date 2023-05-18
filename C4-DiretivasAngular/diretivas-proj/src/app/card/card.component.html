@@ -1,0 +1,29 @@
+<p>Titulo</p>
+<ul>
+    <li *ngFor="let p of produtos; let i = index" (click)="remover(i)">{{p}} = {{i+1}}</li>
+    <button (click)="adicionar()">Adicionar frango</button>
+</ul>
+
+<div [ngSwitch]="menuType">
+    <div *ngSwitchCase="'user'">
+        <ul>
+            <li>Editar perfil</li>
+            <li>Adicionar Cartão</li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'admin'">
+        <ul>
+            <li>Editar perfil</li>
+            <li>Adicionar Cartão</li>
+            <li>Gerenciar usuários</li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'superuser'">
+        <ul>
+            <li>Editar perfil</li>
+            <li>Adicionar Cartão</li>
+            <li>Gerenciar usuários</li>
+            <li>Gerenciar</li>
+        </ul>
+    </div>
+</div>
