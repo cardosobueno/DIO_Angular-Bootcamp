@@ -7,7 +7,9 @@ Alguns dos exercícios foram idealizados para execução dentro da própria plat
 Cada pasta faz parte de um componente de aprendizado.
 
 C2 - Primeiras Páginas Interativas com JavaScript
+
 C3 - Exercite sua Lógica com Desafios de Código em JavaScript
+
 C4 - Ganhando Produtividade com a plataforma Angular
 
 C6 - Trabalhando com Rotas e Serviços no Angular
@@ -21,7 +23,9 @@ Some of the exercises were designed for execution within the platform itself, pr
 Each folder belongs to a learning component.
 
 C2 - First Interactive Pages with JavaScript
+
 C3 - Exercise Your Logic with Code Challenges in JavaScript
+
 C4 - Boosting Productivity with Angular Platform
 
 C6 - Working with Routes and Services in Angular
